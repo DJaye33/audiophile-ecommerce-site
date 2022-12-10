@@ -1,0 +1,26 @@
+.links {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 42.9rem;
+}
+
+.link {
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.link:hover {
+  color: var(--color-primary);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 1440px) {
+  .links {
+    display: flex;
+  }
+}

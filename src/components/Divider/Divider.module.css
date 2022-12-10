@@ -1,0 +1,20 @@
+.divider {
+  height: 0.1rem;
+  background-color: var(--color-white);
+  opacity: 0.1;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+  .divider {
+    max-width: 140rem;
+    margin: 0 4rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .divider {
+    max-width: 110rem;
+    margin: 0 auto;
+  }
+}
